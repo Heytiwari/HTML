@@ -1,35 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #F1F1F1;
 }
-header{
+
+header {
     width: 100%;
     height: 100px;
     background-color: #222222;
 }
-header h3{
+
+header h3 {
     color: white;
     text-align: center;
     padding-top: 25px;
     letter-spacing: 1px;
 }
-header p{
+
+header p {
     color: rgb(206, 205, 205);
     font-size: 12px;
     padding: 15px;
     text-align: center;
 }
-.card h4{
+
+.card h4 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 20px;
 }
-.card1{
+
+.card1 {
     width: 200px;
     height: 180px;
     background-color: white;
@@ -38,7 +44,8 @@ header p{
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.card1 .cardimg{
+
+.card1 .cardimg {
     width: 60px;
     height: 60px;
     border: 2px solid rgb(167, 7, 167);
@@ -51,22 +58,25 @@ header p{
     top: 20px;
     left: 65px;
 }
-.card1>h4{
+
+.card1>h4 {
     position: absolute;
     top: 50px;
     left: 75px;
     font-size: 15px;
-    padding: 15px 0  20px 0;
+    padding: 15px 0 20px 0;
 }
-.card1>p{
+
+.card1>p {
     position: absolute;
     top: 100px;
     left: 25px;
     font-size: 13px;
-    padding: 25px 0  20px 0;
+    padding: 25px 0 20px 0;
     color: rgb(125, 124, 124);
 }
-.card2{
+
+.card2 {
     width: 200px;
     height: 180px;
     background-color: white;
@@ -77,7 +87,7 @@ header p{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.card2 .cardimg1{
+.card2 .cardimg1 {
     width: 60px;
     height: 60px;
     border: 2px solid rgb(167, 7, 167);
@@ -90,38 +100,43 @@ header p{
     top: 20px;
     left: 65px;
 }
-.card2>h4{
+
+.card2>h4 {
     position: absolute;
     top: 50px;
     left: 75px;
     font-size: 15px;
-    padding: 15px 0  20px 0;
+    padding: 15px 0 20px 0;
 }
-.card2>p{
+
+.card2>p {
     position: absolute;
     top: 100px;
     left: 25px;
     font-size: 13px;
-    padding: 25px 0  20px 0;
+    padding: 25px 0 20px 0;
     color: rgb(125, 124, 124);
 }
-.card .html{
+
+.card .html {
     width: 200px;
     height: 110px;
     background-color: #FFEAA7;
     border-radius: 10px;
     display: inline-block;
     margin-left: 40px;
-    position: relative;    
-    transition:1s;
-    transform-style:preserve-3d;
+    position: relative;
+    transition: 1s;
+    transform-style: preserve-3d;
 }
 
-.html > h4, .css > h4{
+.html>h4,
+.css>h4 {
     font-size: 16px;
     transform: translateX(0) translateY(20px);
 }
-.card .html::after{
+
+.card .html::after {
     content: "HyperText Markup Language";
     padding-left: 5px;
     position: absolute;
@@ -129,11 +144,13 @@ header p{
     font-weight: bold;
     font-size: 14px;
 }
-.card .html:hover{
-    transform:rotateY(180deg);
+
+.card .html:hover {
+    transform: rotateY(180deg);
     background-color: rgb(96, 131, 236);
 }
-.card .css{
+
+.card .css {
     width: 200px;
     height: 110px;
     background-color: #FFEAA7;
@@ -141,11 +158,12 @@ header p{
     display: inline-block;
     margin-left: 30px;
     position: relative;
-    transition:1s;
+    transition: 1s;
     transform-style: preserve-3d;
     transition-timing-function: ease-in;
 }
-.card .css::after{
+
+.card .css::after {
     content: "Cascading Style Sheets";
     padding-left: 5px;
     position: absolute;
@@ -154,7 +172,96 @@ header p{
     font-size: 14px;
     text-align: center;
 }
-.card .css:hover{
-    transform:rotateY(180deg);
+
+.card .css:hover {
+    transform: rotateY(180deg);
     background-color: rgb(96, 131, 236);
+}
+
+.btn {
+    margin-left: 80px;
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: #0984E3;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-btn {
+    margin-left: 80px;
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: #6C5CE7;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.6),
+        0 0 10px rgba(108, 99, 255, 0.4),
+        0 0 10px rgba(108, 99, 255, 0.2);
+}
+
+.btn-btn:hover {
+    box-shadow: 0 0 20px rgba(108, 99, 255, 0.6),
+        0 0 20px rgba(108, 99, 255, 0.4),
+        0 0 20px rgba(108, 99, 255, 0.2);
+}
+
+.box1 {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.box2 {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.box3 {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+.box1:hover img,
+.box2:hover img,
+.box3:hover img {
+    transform: rotate(10deg) scale(1.2);
+
 }
