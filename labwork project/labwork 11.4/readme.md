@@ -95,12 +95,12 @@ git clone https://github.com/Heytiwari/HTML/tree/main/labwork%20project/labwork%
 ## 📸 Screenshots
 
 <p align="left">
-  <a href="output/1.png"><img src="output/1.png" alt="Home Page" width="48%"></a>
-  <a href="output/2.png"><img src="output/2.png" alt="Flash Cards" width="48%"></a>
+  <a href="output/1.png" target="_blank"><img src="output/1.png" alt="Home Page" width="48%"></a>
+  <a href="output/2.png" target="_blank"><img src="output/2.png" alt="Flash Cards" width="48%"></a>
 </p>
 
 <p align="left">
-  <a href="output/3.png"><img src="output/3.png" alt="Image Gallery" width="48%"></a>
+  <a href="output/3.png" target="_blank"><img src="output/3.png" alt="Image Gallery" width="48%"></a>
 </p>
 ---
 
