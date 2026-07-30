@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         .wrapper {
-            height: 500px;
+            width: 100%;
             background-color: aqua;
+        }
+
+        .flex {
             padding: 10px;
             display: flex;
-            flex-flow: column wrap;
         }
-        .box{
+
+        h2 {
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+        }
+
+        .box {
             width: 200px;
             height: 200px;
             border: 2px solid black;
@@ -31,15 +41,51 @@
             font-style: italic;
             color: red;
         }
+
+        .wrapper1 {
+            background-color: rgb(174, 100, 243);
+        }
+
+        .flex1 {
+            display: flex;
+        }
+
+        .box1 {
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            margin: 3px 3px 20px 3px;
+            background-color: bisque;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+            align-content: center;
+            color: red;
+        }
     </style>
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="box">01</div>
-        <div class="box">02</div>
-        <div class="box">03</div>
-        <div class="box">04</div>
+        <h2>Display: Flex</h2>
+        <div class="flex">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+        </div>
+    </div>
+    <div class="wrapper1">
+        <h2>Display: Flex, Flex-direction: row</h2>
+        <div class="flex1">
+            <div class="box1">01</div>
+            <div class="box1">02</div>
+            <div class="box1">03</div>
+            <div class="box1">04</div>
+            <div class="box1">05</div>
+            <div class="box1">06</div>
+        </div>
     </div>
 </body>
 
