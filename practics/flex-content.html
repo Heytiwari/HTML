@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <Title>Juatify-content</Title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        .wrapper {
+            height: 550px;
+            background-color: yellow;
+            padding: 20px;
+            display: flex;
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+            align-items: center;
+            /* position: relative; */
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px dotted black;
+            background-color: aqua;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+            border-radius: 50%;
+            /* position: absolute; */
+            transition: all 1s ease;
+        }
+        .box:hover{
+            transform: scale(1.2) rotate(360deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="wrapper">
+        <div class="box">01</div>
+        <div class="box">02</div>
+        <div class="box">03</div>
+        <div class="box">04</div>
+    </section>
+</body>
+
+</html>
