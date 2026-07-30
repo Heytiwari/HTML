@@ -1,42 +1,170 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.head1{
-    width: 100%;
-    height: 250px;
-    background-color: #605F63;
+.head1 {
+  width: 100%;
+  height: 250px;
+  background-color: #605f63;
 }
-h2{
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+h2 {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
-ul{
-    padding: 0 50px;
+ul {
+  padding: 0 50px;
 }
-li{
-    color: #b7b6ba;
-    text-align: justify;
+li {
+  color: #b7b6ba;
+  text-align: justify;
 }
-.container1{
-    background-color: yellow;
-    height: 300px;
-    padding: 2px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 2px;
+.container1 {
+  background-color: yellow;
+  height: 300px;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
 }
-.box{
-    width: 150px;
-    height: 150px;
-    border: 2px solid black;
-    background-color: bisque;
-    color: red;
-    font-style: italic;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    align-content: center;
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: bisque;
+  color: red;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+}
+.wrapper1 {
+  margin-top: 20px;
+}
+.head2 {
+  height: 130px;
+  background-color: #605f63;
+}
+.container2 {
+  background-color: yellow;
+  height: 300px;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2px;
+}
+
+.head3 {
+  height: 110px;
+  background-color: #605f63;
+}
+.container3 {
+  background-color: yellow;
+  height: 300px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.head4 {
+  height: 130px;
+  background-color: #605f63;
+}
+.container4 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.head5 {
+  height: 130px;
+  background-color: #605f63;
+}
+.container5 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+}
+
+.head6 {
+  height: 130px;
+  background-color: #605f63;
+}
+.container6 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px;
+}
+
+.head7 {
+  height: 220px;
+  background-color: #605f63;
+}
+.container7 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 2px;
+}
+
+.head8 {
+  height: 110px;
+  background-color: #605f63;
+}
+.container8 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  align-items: flex-end;
+  padding: 2px;
+  gap: 2px;
+}
+.head9 {
+  height: 110px;
+  background-color: #605f63;
+}
+.container9 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  gap: 2px;
+}
+
+.head10 {
+  height: 130px;
+  background-color: #605f63;
+}
+.container10 {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  align-items: stretch;
+  padding: 2px;
+  gap: 2px;
+}
+.box1 {
+    /* If we do not set a height or width, then the effect of stretch becomes visible. */
+  width: 150px;
+  /* height: 150px; */
+  border: 2px solid black;
+  background-color: bisque;
+  color: red;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
 }
