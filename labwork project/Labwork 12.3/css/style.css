@@ -19,6 +19,7 @@ ul {
 }
 li {
   color: #cdcfcd;
+  font-size: 14px;
 }
 ul :last-child {
   padding-bottom: 20px;
