@@ -90,3 +90,18 @@ ul :last-child{
 .flex-shrink > .box3{
     flex-shrink: 2;
 }
+
+.order{
+    height: 300px;
+    background-color: yellow;
+    margin: 0 40px;
+    padding: 3px;
+    display: flex;
+    align-content: flex-start;
+}
+.order > .box1{
+    order: 0;
+}
+.order > .box2{
+    order: 1;
+}
