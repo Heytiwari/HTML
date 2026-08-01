@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .marquee{
+            border-width: 2px;
+        }
+        .box :nth-child(3){
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <marquee behavior="alternate" direction="right" scrollamount="10">
         <h1>Hello Rajan</h1>
     </marquee>
-    <audio controls >
+    <audio controls muted loop>
         <source src="audio/Deewane.mp3"/>
     </audio>
+    <section>
+        <div class="box">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, autem.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, autem.</p>
+            <div class="box1">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum?</span> <br>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum?</span>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
