@@ -69,7 +69,6 @@ ul :last-child {
 }
 .flex-grow > .box3 {
   flex-basis: 100%;
-   /* flex-grow: 100; */
 }
 
 .flex-shrink {
