@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+body{
+    background-color: black;
+}
+.sidebar img{
+    width: 50px;
+    margin: 0px 0 10px 20px;
+    color: white;
+}
+.sidebar{
+    width: 80px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(121, 120, 120);
+    flex-direction: column;
+    padding-top: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.sidebar:hover{
+    width: 200px;
+}
+.item{
+    color: rgb(213, 211, 211);
+    padding: 0 25px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 18px;
+    align-items: center;
+    
+    gap: 20px;
+    height: 50px;
+}
+.item i{
+    min-width: 24px;
+    font-size: 20px;
+}
+.item:hover{
+    color: #fff;
+}
+.item span{
+    visibility: hidden;
+    transform: translateX(-20px);
+    transition: 0.3s;
+}
+.sidebar:hover .item span{
+    visibility: visible;
+    transform: translateX(0);
+}

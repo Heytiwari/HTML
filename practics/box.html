@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #111;
+        }
+        .card{
+            width: 300px;
+            height: 350px;
+            background-color: #292828;
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+        }
+        .card::before{
+            content: '';
+            position: absolute;
+            width: 320px;
+            height: 500px;
+            top: -20%;
+            right: 0;
+            background: c   (
+                transparent,
+                transparent,
+                transparent,
+                #ff007a
+            );
+            animation: rotate 3s linear infinite;
+        }
+        .card::after{
+            content: '';
+            position: absolute;
+            inset: 4px;
+            background-color: #292828;
+            border-radius: 16px;
+        }
+        @keyframes rotate{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card"></div>
+</body>
+</html>
