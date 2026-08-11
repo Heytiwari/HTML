@@ -1,54 +1,108 @@
-# 🎬 Netflix Landing Page Clone
+# 🎬 Netflix India Landing Page Clone
 
-A modern and responsive **Netflix Landing Page Clone** built using **HTML5** and **CSS3**. This project recreates the look and feel of Netflix's official landing page with a clean UI, trending movie section, membership highlights, FAQ section, and responsive layout.
+A modern **Netflix India Landing Page Clone** built using **HTML5 and CSS3**.  
+This project recreates a Netflix-inspired landing page with a promotional header, navigation bar, hero section, trending content, membership benefits, FAQ section, email signup forms, and footer.
+
+> ⚠️ **Note:** This is a frontend practice project created for educational purposes. It is not affiliated with or endorsed by Netflix.
 
 ---
 
-## 📌 Features
+## 🌐 Live Preview
 
-* 🎨 Modern Netflix-inspired UI
-* 📱 Responsive Design
-* 🖼️ Hero Banner with Background Image
-* 🌐 Language Selection Dropdown
-* 🔐 Sign In Button
-* 📧 Email Subscription Section
-* 🎞️ Trending Movies Section
-* ⭐ Membership Benefits Cards
-* ❓ Frequently Asked Questions (FAQ)
-* 📞 Footer with Useful Links
-* ✨ Hover Effects and Smooth Animations
-* 🎯 Built with Clean HTML & CSS
+🚀 **Live Demo:** Add your deployed project link here.
+
+```text
+https://your-project.vercel.app
+```
+
+---
+
+## 📸 Screenshots
+
+### 🏠  Home/Trending Now
+
+<p>
+<img src="output/home.png"> 
+<img src="output/tranding.png">
+</p>
+
+### ⭐  More Reasons to Join/Frequently Asked Questions
+<p>
+<img src="output/more-reason.png"> 
+<img src="output/ask.png">
+</p>
+
+### 📞 Footer 
+<p>
+<img src="output/footer.png">
+</p>
+
+## ✨ Features
+
+- 🎬 Netflix-inspired landing page design
+- 🎁 Promotional header with gradient background
+- 🧭 Navigation bar with Netflix logo
+- 🌐 Language selection dropdown
+- 🔐 Sign In button
+- 🖼️ Hero section with background image and dark overlay
+- 📧 Email signup forms
+- 🎞️ Trending movies/shows section
+- 🔥 Hover zoom effect on trending cards
+- ⭐ More reasons to join section
+- 📺 TV, download, streaming and kids profile cards
+- ❓ Frequently Asked Questions section
+- ➕ FAQ buttons with Font Awesome icons
+- 📞 Footer with useful links
+- 🌐 Footer language selector
+- ✨ CSS hover effects and transitions
+- 🎨 Netflix-inspired dark theme
+- 🧩 CSS Flexbox based layout
 
 ---
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* Font Awesome Icons
-* Google Chrome (Testing)
+- HTML5
+- CSS3
+- CSS Flexbox
+- CSS Gradients
+- CSS Hover Effects
+- CSS Transitions
+- Font Awesome
+- Google Fonts
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-Netflix-Clone/
+netflix-homepage/
 │
 ├── index.html
+│
 ├── css/
 │   └── style.css
-├── images/
-│   ├── logo.png
-│   ├── bgimg.jpg
-│   ├── ikka.webp
-│   ├── teach.webp
-│   ├── 3.webp
-│   ├── 4.webp
-│   ├── c21.png
-│   ├── c22.png
-│   ├── c23.png
-│   └── c24.png
+│
+├── assets/
+│   └── images/
+│       ├── logo.png
+│       ├── bgimg.jpg
+│       ├── ikka.webp
+│       ├── teach.webp
+│       ├── 3.webp
+│       ├── 4.webp
+│       ├── c21.png
+│       ├── c22.png
+│       ├── c23.png
+│       └── c24.png
+│
+├── screenshots/
+│   ├── home.png
+│   ├── trending.png
+│   ├── more-reason.png
+│   ├── faq.png
+│   └── footer.png
+│
 └── README.md
 ```
 
@@ -59,69 +113,88 @@ Netflix-Clone/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/rajan9430/HTML/tree/main/netflix-homepage
+git clone https://github.com/Heytiwari/HTML/tree/main/netflix-homepage
 ```
 
-### Open the Project
 
-Simply open the **index.html** file in your preferred web browser.
+### Run the Project
 
----
-
-## 📸 Screenshots
-
-### Home Page
-
-> Add your project screenshots here.
-
-Example:
-
-```text
-screenshots/
-├── home.png
-├── section.png
-├── section.png
-└── footer.png
-```
+Open `index.html` directly in your browser.
 
 ---
 
-## 🎯 Sections Included
+## 🧩 Sections Included
 
-* Promotional Header
-* Navigation Bar
-* Hero Section
-* Trending Movies
-* Why Join Netflix
-* FAQ Section
-* Email Signup Form
-* Footer
+### 🏠 Home
+- Promotional header
+- Netflix logo
+- Language selector
+- Sign In button
+- Hero banner
+- Email signup form
+
+### 🎞️ Trending Now
+- Movie/show poster cards
+- Hover zoom effect
+- Responsive-friendly card layout
+
+### ⭐ More Reasons to Join
+- Enjoy on your TV
+- Download your shows to watch offline
+- Watch everywhere
+- Create profiles for kids
+
+### ❓ FAQ
+- What is Netflix?
+- How much does Netflix cost?
+- Where can I watch?
+- How do I cancel?
+- What can I watch on Netflix?
+- Is Netflix good for kids?
+
+### 📞 Footer
+- Customer support information
+- Useful links
+- Language selector
+- Netflix India
+- reCAPTCHA information
 
 ---
 
-## ✨ Future Improvements
+## 🎯 Learning Outcomes
 
-* Add JavaScript functionality
-* FAQ Expand/Collapse Animation
-* Responsive Mobile Navigation
-* Dark Mode Enhancements
-* Movie Slider
-* Backend Authentication
-* Real Netflix API Integration
+This project helped me practice:
+
+- Semantic HTML5
+- CSS Flexbox
+- CSS positioning
+- Background images
+- Linear gradients
+- Hover effects
+- CSS transitions
+- Dropdown menus
+- Card layouts
+- Form styling
+- Navigation design
+- Footer design
+- Responsive web design
+- UI cloning techniques
 
 ---
 
-## 📚 Learning Outcomes
+## 🔮 Future Improvements
 
-This project helped me improve my knowledge of:
-
-* Semantic HTML5
-* CSS Flexbox
-* CSS Hover Effects
-* Background Images
-* Layout Design
-* Responsive Web Design
-* UI Cloning Techniques
+- [ ] JavaScript FAQ expand/collapse
+- [ ] Functional language switching
+- [ ] Email validation
+- [ ] Responsive mobile navigation
+- [ ] Movie carousel/slider
+- [ ] Login page
+- [ ] Signup page
+- [ ] Search functionality
+- [ ] Netflix API integration
+- [ ] Dynamic movie data
+- [ ] Improved mobile responsiveness
 
 ---
 
@@ -129,27 +202,26 @@ This project helped me improve my knowledge of:
 
 **Rajan Kumar Tiwari**
 
-* Frontend Developer
-* Aspiring Full Stack Developer
+**Frontend Developer | Aspiring Full Stack Developer**
 
 ---
 
-## 🤝 Contributing
+## ⭐ Support
 
-Contributions are welcome!
-
-If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+If you like this project, please consider giving the repository a ⭐ on GitHub.
 
 ---
 
-## 📄 License
+## 📄 Disclaimer
 
-This project is created for **educational and practice purposes only**.
+This project is created **strictly for educational and practice purposes**.
 
-Netflix is a registered trademark of Netflix, Inc. This clone is not intended for commercial use.
+Netflix and its associated logos, names, and branding are trademarks of **Netflix, Inc.**
+
+This project is an independent frontend clone and is **not affiliated with Netflix**.
 
 ---
 
-## ⭐ Show Your Support
+### ❤️ Built with HTML & CSS
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+**Made with ❤️ by Rajan Kumar Tiwari**
