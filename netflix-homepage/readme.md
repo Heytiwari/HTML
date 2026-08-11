@@ -4,39 +4,7 @@ A modern **Netflix India Landing Page Clone** built using **HTML5 and CSS3**.
 This project recreates a Netflix-inspired landing page with a promotional header, navigation bar, hero section, trending content, membership benefits, FAQ section, email signup forms, and footer.
 
 > ⚠️ **Note:** This is a frontend practice project created for educational purposes. It is not affiliated with or endorsed by Netflix.
-
 ---
-
-## 🌐 Live Preview
-
-🚀 **Live Demo:** Add your deployed project link here.
-
-```text
-https://your-project.vercel.app
-```
-
----
-
-## 📸 Screenshots
-
-### 🏠  Home/Trending Now
-
-<p>
-<img src="output/home.png"> 
-<img src="output/tranding.png">
-</p>
-
-### ⭐  More Reasons to Join/Frequently Asked Questions
-<p>
-<img src="output/more-reason.png"> 
-<img src="output/ask.png">
-</p>
-
-### 📞 Footer 
-<p>
-<img src="output/footer.png">
-</p>
-
 ## ✨ Features
 
 - 🎬 Netflix-inspired landing page design
@@ -197,6 +165,33 @@ This project helped me practice:
 - [ ] Improved mobile responsiveness
 
 ---
+## 📸 Screenshots
+
+### 🏠  Home/Trending Now
+
+<p>
+<img src="output/home.png"> 
+<img src="output/tranding.png">
+</p>
+
+### ⭐  More Reasons to Join/Frequently Asked Questions
+<p>
+<img src="output/more-reason.png"> 
+<img src="output/ask.png">
+</p>
+
+### 📞 Footer 
+<p>
+<img src="output/footer.png">
+</p>
+---
+## 🎥 video
+
+
+
+https://github.com/user-attachments/assets/3ac489ac-d979-4efc-8d80-dd038a8a96c8
+
+
 
 ## 👨‍💻 Author
 
