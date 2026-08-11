@@ -287,10 +287,12 @@ body {
 
 .trending-section {
     width: 100%;
-
     padding: 50px 7%;
-
+    margin-top: 20px;
     background-color: #000;
+    border-top: 5px solid red;
+    border-top-left-radius: 25% 8%;
+    border-top-right-radius: 25% 8%;
 }
 
 .trending-section h3,
@@ -302,16 +304,15 @@ body {
 }
 
 .trending-cards {
-    display: flex;
-    gap: 30px;
+    display: flex;  
+    gap: 50px;
 }
 
 .trending-card {
     width: 180px;
     height: 250px;
-
+    position: relative;
     flex-shrink: 0;
-
     transition: transform 0.4s;
 }
 
@@ -322,10 +323,17 @@ body {
 .trending-card img {
     width: 100%;
     height: 100%;
-
-    object-fit: cover;
-
+    /* object-fit: cover; */
     border-radius: 7px;
+}
+
+.badge{
+    font-size: 120px;
+    font-weight: bold;
+    position: absolute;
+    left: -30px;
+    bottom: -15px;
+    z-index: 5;
 }
 
 .features-section {
