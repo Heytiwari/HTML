@@ -228,10 +228,12 @@ Add your project screenshot here:
 
 ![Savora Hero Section](output/output.png)
 
+---
+## 🖼️ Project video
 
+https://github.com/user-attachments/assets/99d7bc7a-769c-4d9a-9579-d7bb757e5a96
 
 ---
-
 ## 🚀 How to Run
 
 1. Download or clone this repository.
