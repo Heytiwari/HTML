@@ -386,8 +386,7 @@ nav {
 }
 
 .chef-section {
-  width: 100%;
-  max-width: 1080px;
+  width: 1100px;
   margin: 0 auto;
   padding: 48px 0;
   display: grid;
@@ -444,21 +443,21 @@ nav {
 .chef-content h2 {
   margin: 0 0 12px;
   font-family: Georgia, serif;
-  font-size: 28px;
+  font-size: 35px;
   line-height: 1.2;
   color: #111;
 }
 
 .chef-content h4 {
   margin: 0 0 24px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 800;
   color: #f0522b;
 }
 
 .chef-content p {
   margin: 0 0 16px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.7;
   color: #222;
 }
@@ -473,7 +472,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 16px;
   color: #111;
 }
 
@@ -491,7 +490,7 @@ nav {
 
 .chef-quote p {
   margin: 0 0 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.7;
   font-style: italic;
 }
@@ -507,15 +506,20 @@ nav {
   margin-top: 30px;
 }
 
-.chef-buttons a {
-  height: 39px;
-  padding: 0 22px;
+.chef-buttons button{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.chef-buttons button a {
+  height: 55px;
+  padding: 0 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 6px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
   transition: 0.3s ease;
 }
 
