@@ -339,12 +339,23 @@ nav {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   overflow: hidden;
 }
-
-.food-card img {
+.food-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 5px solid #ddd;
+  border-radius: 15px;
+  pointer-events: none;
+}
+.food-card-images {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+.food-card:hover .food-card-images {
+  transform: scale(1.1);
 }
 
 .food-card-top {
@@ -386,8 +397,7 @@ nav {
 }
 
 .chef-section {
-  width: 100%;
-  max-width: 1080px;
+  width: 1080px;
   margin: 0 auto;
   padding: 48px 0;
   display: grid;
@@ -416,8 +426,8 @@ nav {
   position: absolute;
   top: 14px;
   right: 15px;
-  width: 180px;
-  height: 80px;
+  width: 200px;
+  height: 100px;
   background: #ed5b2a;
   color: #fff;
   border-radius: 10px;
@@ -428,12 +438,13 @@ nav {
 }
 
 .experience-badge strong {
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: bold;
   margin-bottom: 7px;
 }
 
 .experience-badge span {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -443,22 +454,22 @@ nav {
 
 .chef-content h2 {
   margin: 0 0 12px;
-  font-family: Georgia, serif;
-  font-size: 28px;
+  font-size: 35px;
   line-height: 1.2;
   color: #111;
 }
 
 .chef-content h4 {
   margin: 0 0 24px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
   color: #f0522b;
 }
 
 .chef-content p {
   margin: 0 0 16px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.7;
   color: #222;
 }
@@ -473,7 +484,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 16px;
   color: #111;
 }
 
@@ -491,13 +502,14 @@ nav {
 
 .chef-quote p {
   margin: 0 0 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.7;
   font-style: italic;
 }
 
 .chef-quote span {
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: bold;
   color: #111;
 }
 
@@ -506,16 +518,20 @@ nav {
   gap: 12px;
   margin-top: 30px;
 }
+.chef-buttons button {
+  border: none;
+}
 
 .chef-buttons a {
-  height: 39px;
-  padding: 0 22px;
+  height: 50px;
+  padding: 0 44px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 6px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 600;
   transition: 0.3s ease;
 }
 
@@ -540,8 +556,7 @@ nav {
 }
 
 .dining-section {
-  width: 100%;
-  max-width: 1080px;
+  width: 1080px;
   margin: 0 auto;
   padding: 50px 0;
   display: grid;
@@ -592,12 +607,11 @@ nav {
 .dining-overlay h3 {
   margin: 0 0 5px;
   font-size: 18px;
-  font-family: Georgia, serif;
 }
 
 .dining-overlay p {
   margin: 0;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .dining-card:hover img {
@@ -612,6 +626,7 @@ nav {
   opacity: 1;
   transform: translateY(0);
 }
+
 /* start team section */
 
 .heading-container {
@@ -698,12 +713,8 @@ nav {
     transform: translateY(0);
   }
 
-  50% {
-    transform: translateY(-4px);
-  }
-
   100% {
-    transform: translateY(0);
+    transform: translateY(-4px);
   }
 }
 
@@ -822,7 +833,7 @@ nav {
 
 .chefs-heading p {
   margin: 0;
-  font-size: 11px;
+  font-size: 16px;
   color: #555;
 }
 
@@ -991,7 +1002,7 @@ nav {
 }
 
 .chef-card p {
-  margin: 12px 50px ;
+  margin: 12px 50px;
   font-size: 14px;
   line-height: 1.6;
   color: #777;

@@ -102,7 +102,6 @@ body {
 }
 .language-options {
   position: absolute;
-
   top: 48px;
   left: 5px;
   width: 95%;
@@ -113,7 +112,7 @@ body {
   box-sizing: border-box;
 }
 .language-options div {
-  height: 44px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +151,7 @@ body {
 
 .hero-section {
   width: 100%;
-  height: calc(100vh - 50px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
