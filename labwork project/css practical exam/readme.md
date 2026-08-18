@@ -227,8 +227,9 @@ Add your project screenshot here:
 
 
 ![Savora Hero Section](output/output.png)
-
-
+---
+## 🖼️ Project video
+https://github.com/user-attachments/assets/9733feb3-4fa2-4747-8082-065e390af96c
 
 ---
 
