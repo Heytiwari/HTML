@@ -706,16 +706,18 @@ nav {
   transform: translateY(-4px);
   box-shadow: 0 10px 10px rgba(236, 101, 56, 0.897);
 }
+/* start menu card section */
 .menu-main{
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
   gap: 30px;
+  margin-top: 60px;
 }
 .menu-card {
   width: 520px;
   height: 450px;
   /* border: 5px solid red; */
-  margin-top: 60px;
   border-radius: 20px;
   overflow: hidden;
   transition: all 0.5s ease;
@@ -803,6 +805,8 @@ nav {
   color: #e94f2e;
   float: right;
   margin-right: 15px;
+  -webkit-text-stroke: 2px #e94f2e;
+  letter-spacing: 2px;
 }
 
 .download-btn{
