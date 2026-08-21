@@ -195,8 +195,7 @@ nav {
 }
 
 .hero-container {
-  width: 100%;
-  max-width: 1300px;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -623,10 +622,222 @@ nav {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* start menu section */
+.menu {
+  width: 100%;
+  padding: 80px 7.5%;
+}
+.menu-header {
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 35px;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111;
+  letter-spacing: 1px;
+}
+.divider {
+  width: 200px;
+  height: 2px;
+  background-color: #aaa;
+  margin: 28px auto 35px;
+  position: relative;
+}
+.divider span {
+  width: 70px;
+  height: 4px;
+  background-color: #e94f2e;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu-header p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+}
+
+.menu-btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.menu-btn-group button {
+  padding: 17px 25px;
+  border: 2px solid #aaa;
+  border-radius: 30px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-btn-group a {
+  text-decoration: none;
+  color: #222;
+  display: flex;
+  gap: 8px;
+}
+
+.menu-btn-group button:hover a,
+.menu-btn-group button.active a {
+  color: #fff;
+}
+
+.menu-btn-group button.active {
+  background-color: #e94f2e;
+  border-color: #e94f2e;
+}
+
+.menu-btn-group button:hover {
+  background-color: #e94f2e;
+  border-color: #e94f2e;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 10px rgba(236, 101, 56, 0.897);
+}
+.menu-main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.menu-card {
+  width: 520px;
+  height: 450px;
+  /* border: 5px solid red; */
+  margin-top: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
+}
+.menu-card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-card-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.menu-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: all 0.5s ease;
+}
+.menu-card img:hover{
+  transform: scale(1.1);
+}
+.menu-card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 15px;
+}
+.menu-card-main-head h4{
+  font-size: 20px;
+}
+.dietary-tags{
+  width: 40px;
+  height: 40px;
+  background-color: #e94f2e;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.spicy{
+  width: 40px;
+  height: 40px;
+  background-color: #51CF66;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.ok{
+  width: 40px;
+  height: 40px;
+  background-color: #74C0FC;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.star{
+  width: 40px;
+  height: 40px;
+  background-color: #FFD43B;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.tag i{
+  color: #fff;
+  font-size: 20px;
+}
+.tag .bi-star-fill{
+  color: #000;
+  font-size: 20px;
+}
+.menu-card-details p{
+  margin: 20px 15px;
+  color: gray;
+}
+.menu-card-details strong{
+  font-size: 24px;
+  font-weight: 900;
+  display: block;
+  color: #e94f2e;
+  float: right;
+  margin-right: 15px;
+}
+
+.download-btn{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.download-btn button{
+  width: 300px;
+  height: 57px;
+  background: linear-gradient(to right,#EC6637, #F08661);
+  border-radius: 100px;
+  border: none;
+  transition: all 0.5s ease;
+}
+.download-btn button:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 10px rgba(236, 101, 56, 0.9);
+}
+.download-btn a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+.download-btn i{
+  margin-right: 10px;
+  text-decoration: none;
+}
+
 /* start team section */
 
 .heading-container {
-  max-width: 1100px;
+  width: 1100px;
   margin: auto;
   text-align: center;
 }
@@ -1427,6 +1638,6 @@ html {
 }
 .back-top:hover {
   background-color: transparent;
-  color:#000;
+  color: #000;
   /* transform: translateY(-3px); */
 }
