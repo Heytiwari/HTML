@@ -23,11 +23,11 @@
             </div>
 
             <div class="center-header">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Menu</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
                 <a href="#">Book a Table</a>
-                <a href="#">Chefs</a>
+                <a href="#chefs">Chefs</a>
                 <a href="#">Events</a>
 
                 <div class="dropdown-menu">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
 
             <div class="right-header">
@@ -67,7 +67,7 @@
         </nav>
     </header>
 
-    <section class="hero-section">
+    <section id="home" class="hero-section">
         <div class="hero-container">
             <div class="hero-content">
                 <h1>
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <section class="chef-section">
+    <section id="about" class="chef-section">
         <div class="chef-image-box">
             <img src="https://bootstrapmade.com/content/demo/Savora/assets/img/restaurant/chef-3.webp"
                 alt="Executive Chef" />
@@ -220,7 +220,7 @@
         </div>
     </section>
 
-    <section class="menu">
+    <section id="menu" class="menu">
         <div class="menu-header">
             <h2>Menu</h2>
             <div class="divider">
@@ -352,10 +352,10 @@
                 </div>
             </div>
 
-    
-                <div class="download-btn">
-                    <button><a href=""><i class="bi bi-download me-2"></i>Download Full Menu (PDF)</a></button>
-                </div>
+
+            <div class="download-btn">
+                <button><a href=""><i class="bi bi-download me-2"></i>Download Full Menu (PDF)</a></button>
+            </div>
         </div>
     </section>
 
@@ -456,7 +456,7 @@
         </div>
     </section>
 
-    <section class="chefs-section">
+    <section id="chefs" class="chefs-section">
         <div class="chefs-heading">
             <h2>Chefs</h2>
 
@@ -567,9 +567,114 @@
                 </p>
             </div>
         </div>
+
+        <div class="reservation-booking">
+                <div class="input-field">
+                    <p class="subtitle">Make a Reservation</p>
+                    <h1>Reserve Your Table Today</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget eros vitae magna eleifend
+                        lacinia a eget nisl.</p>
+
+                    <form action="" class="reservation-form-details">
+                        <div class="form-details">
+                            <label for="">Full Name</label>
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-details">
+                            <label for="">Phone Number</label>
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-details">
+                            <label for="">Email Address</label>
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-details">
+                            <label for="">Number of People</label>
+                            <select name="" id="">
+                                <option value="">Select guests</option>
+                                <option value="">1 person</option>
+                                <option value="">2 person</option>
+                                <option value="">3 person</option>
+                                <option value="">4 person</option>
+                                <option value="">5 person</option>
+                                <option value="">6+ person</option>
+                            </select>
+                        </div>
+                        <div class="form-details">
+                            <label for="">Reservation Date</label>
+                            <input type="date">
+                        </div>
+                        <div class="form-details">
+                            <label for="">Reservation Time</label>
+                            <input type="time">
+                        </div>
+                        <div class="form-details">
+                            <label for="">Special Requests</label>
+                            <textarea name="" id="" rows="5" cols="5"></textarea>
+                        </div>
+                        <div class="form-details-button">
+                            <button><a href="">Cofirm Reservation</a></button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="restaurant-information">
+                    <img src="https://bootstrapmade.com/content/demo/Savora/assets/img/restaurant/showcase-4.webp" alt="">
+                    <div class="restaurant-information-details">
+                        <h2>Restaurant Information</h2>
+                        <div class="detail">
+                            <div class="icon-box">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <div class="info-text">
+                                <h5>Opening Hours</h5>
+                                <p>Mon - Fri: 11:00 AM - 11:00 PM<br>
+                                    Sat - Sun: 10:00 AM - 12:00 AM</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="icon-box">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="info-text">
+                                <h5>Our Location</h5>
+                                <p>5625 Riverside Avenue <br>
+                                    Newport, RI 02840</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="icon-box">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h5>Reservations</h5>
+                                <p>
+                                    Reservations
+                                    +91 (401) 555-8792</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="icon-box">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h5>Email Us</h5>
+                                <p>reservations@example.com</p>
+                            </div>
+                        </div>
+                        <div class="reservation-cta aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                            <h5>Prefer to call?</h5>
+                            <a href="tel:+14015558792" class="phone-button">
+                                <i class="bi bi-telephone-fill"></i>
+                                Call for Reservations
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="contact-heading">
             <h2>Contact</h2>
 
