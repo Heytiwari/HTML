@@ -21,6 +21,7 @@ body {
   background-color: #000;
   color: white;
   font-family: netflix-rg;
+  /* overflow: hidden; */
 }
 
 .promo-header {
@@ -172,6 +173,7 @@ body {
   padding-top: 80px;
 }
 
+
 .hero-title {
   color: white;
   font-size: 55px;
@@ -278,12 +280,12 @@ body {
   left: -30px;
   bottom: -15px;
   z-index: 5;
-  background: linear-gradient(35deg, red, orange, blue, green, #5c31bf);
+  /* background: linear-gradient(35deg, red, orange, blue, green, #5c31bf);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  /* -webkit-text-stroke: 3px #fff;
+    -webkit-text-fill-color: transparent; */
+  -webkit-text-stroke: 3px #fff;
   color: #000;
-  line-height: 1; */
+  line-height: 1;
   
 }
 
@@ -300,12 +302,13 @@ body {
 
 .feature-card {
   width: 25%;
-  min-height: 330px;
+  height: 330px;
   display: flex;
   flex-direction: column;
   background: linear-gradient(141deg, #1a2143, #210f18);
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 
 .feature-card h4 {
@@ -321,17 +324,20 @@ body {
 }
 
 .feature-card img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* margin-top: auto;
   margin-right: 15px;
-  align-self: flex-end;
+  align-self: flex-end; */
 }
 
 .faq-section {
   width: 100%;
-  min-height: 800px;
+  height: 800px;
   padding: 50px 7%;
   background-color: #000;
 }

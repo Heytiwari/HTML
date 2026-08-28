@@ -1,0 +1,105 @@
+
+@media (max-width: 1199px) {
+  .promo-header p {
+    font-size: 18px;
+  }
+
+  .navbar {
+    font-size: 20px;
+    /* padding: 0 1%; */
+  }
+
+  .brand-logo img {
+    width: 180px;
+    height: auto;
+  }
+
+  .language-box{
+    width: 130px;
+    height: auto;
+  }
+
+  .hero-section{
+    /* height: 100vh; */
+  }
+
+  .trending-cards {
+    width: 100%;
+    flex-flow: row wrap;
+    gap: 80px;
+  }
+
+  .feature-grid {
+    flex-flow: row wrap;
+    gap: 15px;
+  }
+  .feature-card {
+    width: 49%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .promo-header p {
+    font-size: 18px;
+  }
+
+  .navbar {
+    font-size: 20px;
+    /* padding: 0 10%; */
+  }
+
+  .brand-logo img {
+    width: 120px;
+    height: auto;
+  }
+
+  .language-box{
+    width: 100px;
+    height: auto;
+    font-size: 14px;
+  }
+  .language-selected{
+    height: 30px;
+    padding: 0;
+    border-radius: 5px;
+  }
+  .language-options{
+    top: 30px;
+    left: 3px;
+  }
+  .language-options div{
+    font-size: 16px;
+  }
+  .signin-button{
+    width: 50px;
+    height: 28px;
+  }
+  .trending-cards {
+    width: 100%;
+    gap: 20px;
+  }
+  .trending-card {
+    width: 120px;
+    height: 170px;
+  }
+
+  .trending-card .badge {
+    font-size: 70px;
+    bottom: 5px;
+    padding-left: 20px;
+  }
+
+  .features-section {
+    width: 100%;
+  }
+  .feature-grid {
+    flex-flow: row wrap;
+    gap: 15px;
+  }
+  .feature-card {
+    width: 100%;
+    height: 200px;
+  }
+}

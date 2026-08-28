@@ -9,13 +9,14 @@
 
     <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@100..900&family=Ubuntu:wght@300..700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/max-media.css" type="text/css">
 </head>
 
 <body>
@@ -29,35 +30,37 @@
 
     <header class="main-header">
 
-        <nav class="navbar">
+        <div class="container">
+            <nav class="navbar">
 
-            <div class="brand-logo">
-                <img src="assets/images/logo.png" alt="Netflix Logo">
-            </div>
+                <div class="brand-logo">
+                    <img src="assets/images/logo.png" alt="Netflix Logo">
+                </div>
 
-            <div class="nav-actions">
+                <div class="nav-actions">
 
-                <div class="language-box">
+                    <div class="language-box">
 
-                    <div class="language-selected">
-                        <i class="fa-solid fa-language"></i>
-                        <span>English</span>
-                        <i class="fa-solid fa-caret-down"></i>
+                        <div class="language-selected">
+                            <i class="fa-solid fa-language"></i>
+                            <span>English</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="language-options">
+                            <div class="selected">English</div>
+                            <div>हिंदी</div>
+                        </div>
+
                     </div>
-
-                    <div class="language-options">
-                        <div class="selected">English</div>
-                        <div>हिंदी</div>
-                    </div>
+                    <button class="signin-button">
+                        Sign in
+                    </button>
 
                 </div>
-                <button class="signin-button">
-                    Sign in
-                </button>
 
-            </div>
-
-        </nav>
+            </nav>
+        </div>
 
     </header>
 
