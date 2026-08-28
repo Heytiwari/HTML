@@ -6,7 +6,6 @@
 
   .navbar {
     font-size: 20px;
-    /* padding: 0 1%; */
   }
 
   .brand-logo img {
@@ -17,10 +16,6 @@
   .language-box{
     width: 130px;
     height: auto;
-  }
-
-  .hero-section{
-    /* height: 100vh; */
   }
 
   .trending-cards {
@@ -47,7 +42,6 @@
 
   .navbar {
     font-size: 20px;
-    /* padding: 0 10%; */
   }
 
   .brand-logo img {
