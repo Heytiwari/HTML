@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainwhite: #e6e6e6;
+    --supergrey: #676767;
+    --primary: #3392f5;
+}
+body, html{
+    background: var(--mainwhite);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap_toggle{
+    padding: 20px;
+    border-radius: 30px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -10px -10px 15px #f6f6f6, 10px 10px 15px #cecece;
+    color: var(--supergrey);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.wrap_toggle label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.bluetooth{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+    color: var(--supergrey);
+}
+.wrap_toggle input{
+    display: none;
+}
+.switch{
+    position: relative;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: inset -7px -7px 5px #f6f6f6, inset 7px 7px 5px #cecece;
+}
+.knob{
+    height: 20px;
+    width: 45px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.27);
+    color: #333;
+}
+.knob::before{
+    content: "OFF";
+    font-weight: bold;
+    color: var(--supergrey);
+}
+.wrap_toggle input:checked + .switch .knob::before {
+    display: none;
+}
+.wrap_toggle input:checked + .switch .knob{
+    transform: translateX(44px);
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 0 8px var(--primary);
+} 
+.wrap_toggle input:checked + .switch .knob::after{
+    content: "ON";
+    font-weight: bold;
+}
+label:has(input:checked) .bluetooth{
+    color: var(--primary);
+}
