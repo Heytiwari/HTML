@@ -50,6 +50,7 @@ body, html{
     width: 100px;
     border-radius: 20px;
     box-shadow: inset -7px -7px 5px #f6f6f6, inset 7px 7px 5px #cecece;
+    cursor: pointer;
 }
 .knob{
     height: 20px;
