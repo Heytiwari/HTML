@@ -6,16 +6,20 @@
 body{
     background: rgb(235, 234, 234);
 }
+
+.card-section {
+    width: 100%;
+    padding: 10px 12px;
+}
 .container {
     width: 100%;
-    display: grid;
+    display: grid;  
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    margin: 20px;
 }
 
 .box{
-    width: 250px;
+    width: 280px;
     height: 310px;
     background: #fff;
     /* border: 2px solid red; */
