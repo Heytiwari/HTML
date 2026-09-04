@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    /* background: #A6833C; */
+    background: linear-gradient(to top, #b6e9e6,#e9ade7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    /* height: 400px; */
+    background: linear-gradient(to top, #b6e9e6,#e9ade7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 15px #979797,inset 5px 5px 15px #676767;
+}
+.container .bi-person{
+    font-size: 35px;
+    color: #fff;
+}
+.container p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.user-input-form{
+    width: 100%;
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #47729f;
+}
+.input-box input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+input:focus{
+    outline: none;
+    background: transparent;
+}
+
+.condition{
+    display: flex;
+    justify-content: space-between;
+}
+.checked{
+    display: flex;
+    gap: 5px;
+}
+.condition a{
+    text-decoration: none;
+}
+.user-input-form > button{
+    padding: 10px 0;
+    border-radius: 100px;
+    border: none;
+    background: #234162;
+    cursor: pointer;
+    text-align: center;
+}
+.user-input-form button a{
+    text-decoration: none;
+    letter-spacing: 1px;
+      color: #fff;
+}
+.container span{
+    font-size: 14px;
+}
+.container span a{
+    text-decoration: none;
+}
