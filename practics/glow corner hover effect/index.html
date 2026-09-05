@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Glow corner hover effect</title>
+  </head>
+  <body class="flex justify-center items-center min-h-[100vh] bg-[#222]">
+    <div class="container flex justify-center items-center gap-12 flex-wrap">
+      <div
+        class="card overflow-hidden relative w-[320px] h-[400px] bg-[rgba(45,45,45,1)] rounded-[20px] before:content-[''] before:absolute before:bg-[radial-gradient(#0f0,transparent,transparent)] before:w-[400px] before:h-[400px] before:top-[var(--y)] before:left-[var(--x)] before:transform-[translate(-50%,-50%)]"
+        style="--clr: #0f0;"
+      ></div>
+      <div
+        class="card overflow-hidden relative w-[320px] h-[400px] bg-[rgba(45,45,45,1)] rounded-[20px] before:content-[''] before:absolute before:bg-[radial-gradient(#ff0,transparent,transparent)] before:w-[400px] before:h-[400px]"
+        style="--clr: #ff0;"
+      ></div>
+    </div>
+    <script>
+      let cards = document.querySelectorAll(".card");
+      cards.forEach((card) => {
+        card.onmousemove = function (e) {
+          let x = e.pageX - card.offsetLeft;
+          let y = e.pageY - card.offsetTop;
+          card.style.setProperty("--x", x + "px");
+          card.style.setProperty("--y", y + "px");
+        };
+      });
+    </script>
+  </body>
+</html>
