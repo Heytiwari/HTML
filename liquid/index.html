@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        /* The Liquid Glass Button */
+        .liquid-glass-btn {
+            position: relative;
+            padding: 16px 36px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow:
+                0 4px 30px rgba(0, 0, 0, 0.1),
+                inset 0 1px 3px rgba(255, 255, 255, 0.4);
+
+            /* Applies the SVG liquid filter and frosted blur combined */
+            backdrop-filter: url(#liquid-refraction) blur(10px);
+            -webkit-backdrop-filter: url(#liquid-refraction) blur(10px);
+        }
+
+        /* Hover & Active States */
+        .liquid-glass-btn:hover {
+            background: rgba(255, 255, 255, 0.18);
+            box-shadow:
+                0 8px 40px rgba(0, 0, 0, 0.15),
+                inset 0 1px 5px rgba(255, 255, 255, 0.6);
+            transform: translateY(-1px);
+        }
+
+        .liquid-glass-btn:active {
+            transform: translateY(1px);
+        }
+
+        /* Ensures text remains legible and doesn't get distorted by the filter */
+        .btn-content {
+            position: relative;
+            z-index: 2;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+
+<body>
+    <button class="liquid-glass-btn">
+        <span class="btn-content">Click Me</span>
+    </button>
+
+    
+</body>
+
+</html>
