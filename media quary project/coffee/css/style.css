@@ -35,6 +35,8 @@ body {
 
 header {
   padding: 20px 0;
+  text-align: center;
+  background-color: aqua;
 }
 
 nav {
@@ -43,7 +45,7 @@ nav {
   align-items: center;
   position: relative;
   max-width: 1140px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto;
 }
 
 .brand-logo {
