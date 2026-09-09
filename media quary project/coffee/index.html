@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofty Solutions - Freshly Roasted Coffee</title>
+
+    <!-- Google Fonts: Montserrat & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Search & Menu Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="page-container">
+        <header>
+            <nav>
+                <!-- Logo -->
+                <a href="#" class="brand-logo">
+                    <svg class="logo-icon" viewBox="0 0 100 80" fill="none" stroke="#2D231E" stroke-width="5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 30 18 Q 33 10 30 4" />
+                        <path d="M 40 18 Q 43 10 40 4" />
+                        <path d="M 50 18 Q 53 10 50 4" />
+                        <!-- Cup Body -->
+                        <path d="M 18 24 L 62 24 C 62 50, 52 64, 40 64 C 28 64, 18 50, 18 24 Z" fill="none" />
+                        <!-- Cup Handle -->
+                        <path d="M 62 30 C 74 30, 74 48, 60 50" />
+                        <!-- Saucer Plate -->
+                        <path d="M 10 68 Q 40 76 70 68" stroke-width="4.5" />
+                    </svg>
+                    <span class="logo-text">cofty solutions</span>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button class="search-btn" title="Search" aria-label="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                    <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-wrapper">
+                <div class="hero-curved-banner">
+
+                </div>
+            </section>
+
+            <section class="categories" id="menu">
+                <div class="categories-section">
+                    <h2 class="section-title">TOP CATEGORIES</h2>
+                    <p class="section-subtitle">Explore The Recent Most Bought Drinks This Week</p>
+
+                    <div class="categories-grid">
+
+                        <!-- Category 1: Coffee Mocha -->
+                        <div class="card">
+                            <img class="card-bg"
+                                src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=600&q=80"
+                                alt="Coffee Mocha"
+                                onerror="this.src='https://placehold.co/400x300/36251b/ffffff?text=Coffee+Mocha'" />
+                            <div class="card-overlay">
+                                <h3 class="card-title">Coffee Mocha</h3>
+                                <div class="card-divider"></div>
+                                <span class="view-more-link">View More</span>
+                            </div>
+                        </div>
+
+                        <!-- Category 2: Expresso Americano -->
+                        <div class="card">
+                            <img class="card-bg"
+                                src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80"
+                                alt="Expresso Americano"
+                                onerror="this.src='https://placehold.co/400x300/221c19/ffffff?text=Expresso+Americano'" />
+                            <div class="card-overlay">
+                                <h3 class="card-title">Expresso Americano</h3>
+                                <div class="card-divider"></div>
+                                <span class="view-more-link">View More</span>
+                            </div>
+                        </div>
+
+                        <!-- Category 3: Cappuccino -->
+                        <div class="card">
+                            <img class="card-bg"
+                                src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80"
+                                alt="Cappuccino"
+                                onerror="this.src='https://placehold.co/400x300/402f23/ffffff?text=Cappuccino'" />
+                            <div class="card-overlay">
+                                <h3 class="card-title">Cappuccino</h3>
+                                <div class="card-divider"></div>
+                                <span class="view-more-link">View More</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- COFFEE SHOP SECTIONS (MILK SHAKES & BLOGS) -->
+            <section class="coffee-sections-wrapper">
+
+                <!-- TOP MILK SHAKES SECTION -->
+                <div class="shop-section">
+                    <div class="section-header">
+                        <h2 class="section-title">TOP MILK SHAKES</h2>
+                        <p class="section-subtitle">Explore The Recent Most Bought Shakes This Week</p>
+                    </div>
+
+                    <div class="cards-grid shake-grid">
+
+                        <!-- Shake Card 1 -->
+                        <div class="shake-card">
+                            <div class="likes-badge">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                                    <path
+                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" />
+                                </svg>
+                                <span>30 likes</span>
+                            </div>
+                            <div class="shake-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=300&auto=format&fit=crop&q=80"
+                                    alt="Mocha Shake" class="shake-img" />
+                            </div>
+                            <h3 class="card-item-title">Mocha Shake</h3>
+                            <div class="card-footer">
+                                <span class="price">$20.00</span>
+                                <button class="buy-btn">BUY NOW</button>
+                            </div>
+                        </div>
+
+                        <!-- Shake Card 2 -->
+                        <div class="shake-card">
+                            <div class="likes-badge">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                                    <path
+                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" />
+                                </svg>
+                                <span>30 likes</span>
+                            </div>
+                            <div class="shake-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=300&auto=format&fit=crop&q=80"
+                                    alt="Lavender Shake" class="shake-img" />
+                            </div>
+                            <h3 class="card-item-title">Lavender Shake</h3>
+                            <div class="card-footer">
+                                <span class="price">$20.00</span>
+                                <button class="buy-btn">BUY NOW</button>
+                            </div>
+                        </div>
+
+                        <!-- Shake Card 3 -->
+                        <div class="shake-card">
+                            <div class="likes-badge">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                                    <path
+                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" />
+                                </svg>
+                                <span>30 likes</span>
+                            </div>
+                            <div class="shake-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1541658016709-82535e94bc69?w=300&auto=format&fit=crop&q=80"
+                                    alt="Caramel Shake" class="shake-img" />
+                            </div>
+                            <h3 class="card-item-title">Caramel Shake</h3>
+                            <div class="card-footer">
+                                <span class="price">$20.00</span>
+                                <button class="buy-btn">BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- LATEST BLOGS SECTION -->
+                <div class="shop-section">
+                    <div class="section-header">
+                        <h2 class="section-title">LATEST BLOGS</h2>
+                        <p class="section-subtitle">Explore The Recent Most Bought Shakes This Week</p>
+                    </div>
+
+                    <div class="cards-grid blog-grid">
+
+                        <!-- Blog Card 1 -->
+                        <div class="blog-card">
+                            <div class="blog-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=500&auto=format&fit=crop&q=80"
+                                    alt="Coffee Connoisseur" class="blog-img" />
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Coffee Connoisseur</h3>
+                                <p class="blog-desc">
+                                    I'm Kev Lewis, a Coffee Enthusiast based in the North West of England. I'm the
+                                    founder, author, and Chief Brewer behind Coffeeblog.co.uk...
+                                </p>
+                                <a href="#read-more" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 2 -->
+                        <div class="blog-card">
+                            <div class="blog-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500&auto=format&fit=crop&q=80"
+                                    alt="Coffee Connoisseur" class="blog-img" />
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Coffee Connoisseur</h3>
+                                <p class="blog-desc">
+                                    I'm Kev Lewis, a Coffee Enthusiast based in the North West of England. I'm the
+                                    founder, author, and Chief Brewer behind Coffeeblog.co.uk...
+                                </p>
+                                <a href="#read-more" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 3 -->
+                        <div class="blog-card">
+                            <div class="blog-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&auto=format&fit=crop&q=80"
+                                    alt="Coffee Connoisseur" class="blog-img" />
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Coffee Connoisseur</h3>
+                                <p class="blog-desc">
+                                    I'm Kev Lewis, a Coffee Enthusiast based in the North West of England. I'm the
+                                    founder, author, and Chief Brewer behind Coffeeblog.co.uk...
+                                </p>
+                                <a href="#read-more" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <!-- FOOTER SECTION -->
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-divider"></div>
+
+                <div class="footer-grid">
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Products</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Shoes</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Category</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">New In</a></li>
+                            <li><a href="#">Weekly Pick</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Company Info</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Track Order</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Vouchers</a></li>
+                            <li><a href="#">Size Charts</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Follow us</h4>
+                        <div class="social-links">
+                            <!-- Instagram -->
+                            <a href="#" aria-label="Instagram" class="social-icon">
+                                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </a>
+
+                            <a href="#" aria-label="Facebook" class="social-icon">
+                                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                    <path
+                                        d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                </svg>
+                            </a>
+
+                            <a href="#" aria-label="YouTube" class="social-icon">
+                                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                    <path
+                                        d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <ul class="legal-links">
+                        <li><a href="#">Data settings</a></li>
+                        <li><a href="#">Cookie settings</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms And Conditions</a></li>
+                        <li><a href="#">Imprint</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // Close menu on link click
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
