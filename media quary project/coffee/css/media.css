@@ -156,7 +156,7 @@
 
 @media (max-width: 480px) {
   .hero-curved-banner {
-    height: 220px;
+    height: 100px;
   }
   .hero-details {
     text-align: left;
