@@ -109,4 +109,4 @@ The project uses custom CSS variables defined in `:root`:
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](http://github.com/Heytiwari/MIT-Licence?tab=MIT-1-ov-file).
