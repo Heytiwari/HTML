@@ -106,6 +106,11 @@ The project uses custom CSS variables defined in `:root`:
 | ![Mobile Preview](./output/mobile.png) | ![small Lessthan 480px Preview](./output/small%20size%20lessthan%20480.png) |
 
 ---
+### Project video
+
+https://github.com/user-attachments/assets/b69cec9a-4203-4ea0-b6a9-35916ccea46d
+
+---
 
 ## 📄 License
 
