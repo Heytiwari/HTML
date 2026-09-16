@@ -43,8 +43,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  max-width: 1140px;
-  margin: 0 auto;
+  /* max-width: 1140px; */
+  margin: 0 0;
 }
 
 .brand-logo {
@@ -66,7 +66,14 @@ nav {
   letter-spacing: -0.3px;
   font-family: var(--font-sub);
 }
-
+header{
+  width: 100%;
+}
+/* nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+} */
 .nav-links {
   display: flex;
   list-style: none;
@@ -499,7 +506,7 @@ nav {
 /* 4-Column Grid */
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1.2fr 1.5fr 1fr;
+  grid-template-columns: 1.2fr 1.2fr 1.2fr 1fr;
   justify-items: center;
   gap: 40px;
   margin-bottom: 60px;
@@ -570,7 +577,6 @@ nav {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
-  /* align-items: center; */
   gap: 25px 35px;
 }
 
