@@ -567,10 +567,10 @@ nav {
 
 .legal-links {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  /* align-items: center; */
   gap: 25px 35px;
 }
 
