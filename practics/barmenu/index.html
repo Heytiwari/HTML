@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1. Bar Icon Style */
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+}
+
+/* 2. Menu Links को डिफ़ॉल्ट रूप से छुपाना */
+.nav-links {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.nav-links a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* 3. Checkbox checked होने पर .nav-links को दिखाना */
+#menu-toggle:checked ~ .nav-links {
+  display: block;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+  <div class="bars">
+    <input type="checkbox" id="menu-toggle" hidden>
+    <label for="menu-toggle" class="menu-icon">≡</label>
+    
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</body>
+</html>

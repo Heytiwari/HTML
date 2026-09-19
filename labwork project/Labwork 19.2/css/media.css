@@ -1,0 +1,169 @@
+
+@media (min-width: 993px){
+    .bars{
+        display: none;
+    }
+}
+/* Large Tablets & Small Laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  label {
+    font-size: 20px;
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .nav-links a{
+    display: block;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    display: none;
+  }
+
+  .about-grid,
+  .infra-grid {
+    gap: 25px;
+  }
+
+  .section-title h2,
+  .infra-text h2 {
+    font-size: 22px;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+  }
+}
+
+/* 2. Tablets & Mobile Landscape (max-width: 768px) */
+@media (max-width: 768px) {
+    .fa-bars{
+        display: block;
+    }
+  /* Navbar adjustments */
+  .nav-links a{
+    display: none; /* Drawer / Hamburger menu ke liye */
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  /* 2-column sections stacked into 1-column */
+  .about-grid,
+  .infra-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Icon Grid */
+  .icon-grid {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 10px;
+  }
+
+  /* Trending Courses Grid */
+  .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  /* Infrastructure Section */
+  .infra-gallery {
+    gap: 10px;
+  }
+
+  .infra-gallery img {
+    height: 160px;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+/* 3. Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .top-bar {
+    font-size: 11px;
+  }
+
+  .logo {
+    font-size: 17px;
+  }
+
+  .section-title {
+    margin: 30px 0 20px;
+  }
+
+  .section-title h2 {
+    font-size: 19px;
+  }
+
+  /* Category Icons: 2 columns per row */
+  .icon-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 35px;
+  }
+
+  .icon-card {
+    padding: 15px 8px;
+  }
+
+  .icon-card i {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  /* Features checklist */
+  .features-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .btn-apply {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .play-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  /* Courses: 1 column per row for clean display */
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-card img {
+    height: 140px;
+  }
+
+  /* Gallery: Single column */
+  .infra-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .infra-gallery img {
+    height: 180px;
+  }
+
+  /* Footer: Single column */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
