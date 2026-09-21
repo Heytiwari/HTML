@@ -93,13 +93,13 @@
   .container {
     padding: 0 15px;
   }
+  .nav-container .logo{
+    width: 100px;
+    height: 40px;
+  }
 
   .top-bar {
     font-size: 11px;
-  }
-
-  .logo {
-    font-size: 17px;
   }
 
   .section-title {
