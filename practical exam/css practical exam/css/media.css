@@ -1,0 +1,1092 @@
+
+@media (max-width: 1199px) {
+
+    /* Header */
+    nav {
+        margin: 0 20px;
+    }
+
+    .center-header {
+        gap: 18px;
+    }
+
+    .center-header > a,
+    .dropdown-btn {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .hero-section {
+        padding: 60px 30px;
+    }
+
+    .hero-container {
+        width: 100%;
+        max-width: 1000px;
+        gap: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .main-image-card {
+        width: 450px;
+        height: 370px;
+    }
+
+    .hero-image {
+        padding-left: 0;
+    }
+
+    .food-card-top {
+        right: -10px;
+    }
+
+    /* Chef */
+    .chef-section {
+        width: 100%;
+        max-width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Dining */
+    .dining-section {
+        max-width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Menu */
+    .menu {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .menu-header {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .menu-main {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .menu-card {
+        width: 470px;
+    }
+
+    /* Team */
+    .heading-container {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .team-container {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+
+    /* Chefs */
+    .chef-feature {
+        width: 100%;
+        max-width: 1000px;
+        gap: 40px;
+    }
+
+    .chef-cards {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    /* Reservation */
+    .reservation-booking {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    /* Contact */
+    .contact-container {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    /* Footer */
+    .footer-main {
+        width: 100%;
+        max-width: 1000px;
+        gap: 30px;
+    }
+
+    .footer-about {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    /* Header */
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        margin: 0 10px;
+    }
+
+    .center-header {
+        gap: 12px;
+    }
+
+    .center-header > a,
+    .dropdown-btn {
+        font-size: 14px;
+    }
+
+    .right-header button {
+        padding: 9px 16px;
+    }
+
+    .right-header a {
+        font-size: 15px;
+    }
+
+    /* Hero */
+    .hero-section {
+        height: auto;
+        min-height: 650px;
+        padding: 120px 30px 60px;
+    }
+
+    .hero-container {
+        max-width: 900px;
+        gap: 25px;
+    }
+
+    .hero-content {
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+    .hero-image {
+        width: 50%;
+    }
+
+    .main-image-card {
+        width: 100%;
+        height: 350px;
+    }
+
+    .food-card {
+        width: 110px;
+        height: 110px;
+    }
+
+    .food-card-top {
+        top: 60px;
+        right: -10px;
+    }
+
+    .food-card-bottom {
+        left: -10px;
+    }
+
+    .hero-info {
+        gap: 20px;
+    }
+
+    /* Chef */
+    .chef-section {
+        grid-template-columns: 1fr;
+        max-width: 750px;
+        gap: 35px;
+    }
+
+    .chef-image-box {
+        height: 450px;
+    }
+
+    /* Dining */
+    .dining-section {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 750px;
+    }
+
+    /* Menu */
+    .menu {
+        padding: 60px 30px;
+    }
+
+    .menu-header {
+        max-width: 750px;
+    }
+
+    .menu-main {
+        gap: 25px;
+    }
+
+    .menu-card {
+        width: calc(50% - 15px);
+    }
+
+    /* Team */
+    .heading-container {
+        max-width: 750px;
+    }
+
+    .team-container {
+        max-width: 750px;
+        grid-template-columns: 1fr;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+
+    /* Chefs */
+    .chefs-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .chef-feature {
+        max-width: 750px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .chef-content h1 {
+        font-size: 45px;
+    }
+
+    .chef-image {
+        order: 2;
+    }
+
+    .chef-cards {
+        max-width: 750px;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+    }
+
+    /* Reservation */
+    .reservation-booking {
+        max-width: 750px;
+        flex-direction: column;
+    }
+
+    .input-field,
+    .restaurant-information {
+        width: 100%;
+    }
+
+    .restaurant-information img {
+        height: 350px;
+    }
+
+    .restaurant-information-details {
+        padding: 30px;
+    }
+
+    /* Contact */
+    .contact-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .contact-container {
+        max-width: 750px;
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    .footer-main {
+        max-width: 750px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .footer-about {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    /* Header */
+    nav {
+        margin: 0;
+    }
+
+    .center-header {
+        gap: 8px;
+    }
+
+    .center-header > a,
+    .dropdown-btn {
+        font-size: 13px;
+    }
+
+    .right-header button {
+        padding: 8px 12px;
+    }
+
+    .right-header a {
+        font-size: 13px;
+    }
+
+    /* Hero */
+    .hero-section {
+        padding: 110px 20px 50px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-info {
+        justify-content: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 550px;
+        padding: 0 20px 35px;
+    }
+
+    .main-image-card {
+        width: 100%;
+        height: 400px;
+    }
+
+    .food-card-top {
+        right: 0;
+    }
+
+    .food-card-bottom {
+        left: 0;
+    }
+
+    /* Chef */
+    .chef-section {
+        padding: 40px 20px;
+    }
+
+    .chef-content h2 {
+        font-size: 30px;
+    }
+
+    /* Dining */
+    .dining-section {
+        grid-template-columns: 1fr;
+        max-width: 550px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dining-card {
+        height: 280px;
+    }
+
+    /* Menu */
+    .menu {
+        padding: 50px 20px;
+    }
+
+    .menu h2 {
+        font-size: 30px;
+    }
+
+    .menu-btn-group {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .menu-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-card {
+        width: 100%;
+        margin: 0px;
+    }
+    
+
+    /* Team */
+    .team-section {
+        padding: 60px 20px;
+    }
+
+    .heading-container {
+        padding: 0;
+    }
+
+    .heading-container h2 {
+        font-size: 30px;
+    }
+
+    .team-container {
+        padding: 0;
+        max-width: 550px;
+    }
+
+    .team-card {
+        height: auto;
+        min-height: 250px;
+    }
+
+    /* Chefs */
+    .chefs-section {
+        padding: 40px 20px 60px;
+    }
+
+    .chef-content h1 {
+        font-size: 40px;
+    }
+
+    .chef-description {
+        font-size: 15px !important;
+    }
+
+    .chef-award {
+        width: 100%;
+    }
+
+    .chef-image .chef-main-image {
+        height: 450px;
+    }
+
+    .chef-cards {
+        max-width: 550px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Reservation */
+    .reservation-booking {
+        max-width: 550px;
+    }
+
+    .input-field {
+        padding: 35px 25px;
+    }
+
+    /* Contact */
+    .contact-section {
+        padding: 50px 20px;
+    }
+
+    .contact-container {
+        max-width: 550px;
+        padding: 0;
+    }
+
+    /* Footer */
+    .footer-main {
+        max-width: 550px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 20px 30px;
+    }
+
+    .footer-bottom {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .footer-links span {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 12px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .center-header {
+        display: none;
+    }
+
+    .right-header button {
+        padding: 8px 14px;
+    }
+
+    /* Hero */
+    .hero-section {
+        padding: 100px 15px 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .book-btn,
+    .menu-btn {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .hero-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-image {
+        padding: 0 10px 30px;
+    }
+
+    .main-image-card {
+        height: 300px;
+    }
+
+    .food-card {
+        width: 90px;
+        height: 90px;
+        border-width: 3px;
+    }
+
+    .food-card-top {
+        top: 50px;
+        right: -5px;
+    }
+
+    .food-card-bottom {
+        left: -5px;
+    }
+
+    /* Chef */
+    .chef-section {
+        padding: 35px 15px;
+    }
+
+    .chef-image-box {
+        height: 350px;
+    }
+
+    .experience-badge {
+        width: 160px;
+        height: 65px;
+    }
+
+    .experience-badge strong {
+        font-size: 18px;
+    }
+
+    .chef-content h2 {
+        font-size: 27px;
+    }
+
+    .chef-content h4 {
+        font-size: 16px;
+    }
+
+    .chef-content p {
+        font-size: 14px;
+    }
+
+    .chef-awards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .chef-buttons {
+        flex-direction: column;
+    }
+
+    /* Dining */
+    .dining-section {
+        padding: 40px 15px;
+    }
+
+    .dining-card {
+        height: 240px;
+    }
+
+    /* Menu */
+    .menu {
+        padding: 45px 15px;
+    }
+
+    .menu h2 {
+        font-size: 27px;
+    }
+
+    .menu-header p {
+        font-size: 14px;
+    }
+
+    .menu-btn-group {
+        gap: 10px;
+    }
+
+    .menu-btn-group button {
+        padding: 12px 18px;
+        font-size: 13px;
+    }
+
+    .menu-main {
+        margin-top: 40px;
+    }
+
+    .menu-card {
+        height: auto;
+        min-height: 430px;
+    }
+
+    .menu-card-image {
+        height: 220px;
+    }
+
+    .menu-card-header {
+        margin: 15px 12px;
+    }
+
+    .menu-card-main-head h4 {
+        font-size: 18px;
+    }
+
+    .menu-card-details p {
+        margin: 15px 12px;
+        font-size: 14px;
+    }
+
+    .menu-card-details strong {
+        font-size: 20px;
+        margin-right: 12px;
+    }
+
+    .download-btn button {
+        width: 90%;
+    }
+
+    /* Team */
+    .team-section {
+        padding: 50px 15px;
+    }
+
+    .heading-container h2 {
+        font-size: 27px;
+    }
+
+    .heading-container p {
+        font-size: 15px;
+    }
+
+    .team-container {
+        margin-top: 35px;
+    }
+
+    .team-card {
+        padding: 20px;
+    }
+
+    .team-top {
+        gap: 20px;
+    }
+
+    .team-top img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-info h3 {
+        font-size: 19px;
+    }
+
+    .team-info p {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    /* Chefs */
+    .chefs-section {
+        padding: 35px 15px 50px;
+    }
+
+    .chefs-heading {
+        margin-bottom: 40px;
+    }
+
+    .chefs-heading h2 {
+        font-size: 28px;
+    }
+
+    .chef-content h1 {
+        font-size: 34px;
+    }
+
+    .experience strong {
+        font-size: 28px;
+    }
+
+    .chef-image .chef-main-image {
+        height: 350px;
+    }
+
+    .chef-cards {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-top: 45px;
+    }
+
+    .chef-card img {
+        height: 220px;
+    }
+
+    /* Reservation */
+    .input-field {
+        padding: 30px 20px;
+    }
+
+    .input-field h1 {
+        font-size: 28px;
+    }
+
+    .restaurant-information img {
+        height: 280px;
+    }
+
+    .restaurant-information-details {
+        padding: 25px 20px;
+    }
+
+    .restaurant-information-details h2 {
+        font-size: 25px;
+    }
+
+    /* Contact */
+    .contact-section {
+        padding: 40px 15px;
+    }
+
+    .contact-heading {
+        margin-bottom: 40px;
+    }
+
+    .contact-heading h2 {
+        font-size: 28px;
+    }
+
+    .contact-info-box,
+    .contact-form-box {
+        padding: 25px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /* Footer */
+    .footer-main {
+        grid-template-columns: 1fr;
+        padding: 35px 20px;
+        gap: 30px;
+    }
+
+    .footer-about {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        padding: 20px 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    /* Header */
+    .left-header {
+        font-size: 14px;
+    }
+
+    .right-header button {
+        padding: 7px 12px;
+    }
+
+    .right-header a {
+        font-size: 12px;
+    }
+
+    /* Hero */
+    .hero-section {
+        padding: 90px 12px 35px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+    }
+
+    .main-image-card {
+        height: 250px;
+    }
+
+    .food-card {
+        width: 75px;
+        height: 75px;
+    }
+
+    .food-card-top {
+        top: 40px;
+    }
+
+    /* Chef */
+    .chef-image-box {
+        height: 300px;
+    }
+
+    .experience-badge {
+        width: 140px;
+        height: 60px;
+    }
+
+    .experience-badge strong {
+        font-size: 16px;
+    }
+
+    .experience-badge span {
+        font-size: 10px;
+    }
+
+    .chef-content h2 {
+        font-size: 25px;
+    }
+
+    /* Dining */
+    .dining-card {
+        height: 210px;
+    }
+
+    .dining-overlay {
+        left: 15px;
+        bottom: 15px;
+    }
+
+    /* Menu */
+    .menu {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .menu h2 {
+        font-size: 25px;
+    }
+
+    .menu-btn-group button {
+        padding: 10px 14px;
+    }
+
+    .menu-card {
+        min-height: 400px;
+    }
+
+    .menu-card-image {
+        height: 200px;
+    }
+
+    .dietary-tags,
+    .spicy,
+    .ok,
+    .star {
+        width: 35px;
+        height: 35px;
+    }
+
+    .tag i,
+    .tag .bi-star-fill {
+        font-size: 17px;
+    }
+
+    .download-btn button {
+        width: 95%;
+        height: 52px;
+    }
+
+    /* Team */
+    .team-card {
+        padding: 15px;
+    }
+
+    .team-top {
+        gap: 15px;
+    }
+
+    .team-top img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .team-info h3 {
+        font-size: 17px;
+    }
+
+    .team-info p {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    /* Chefs */
+    .chef-content h1 {
+        font-size: 30px;
+    }
+
+    .experience strong {
+        font-size: 25px;
+    }
+
+    .experience span {
+        font-size: 14px;
+    }
+
+    .chef-image .chef-main-image {
+        height: 300px;
+    }
+
+    .chef-card img {
+        height: 200px;
+    }
+
+    /* Reservation */
+    .input-field {
+        padding: 25px 15px;
+    }
+
+    .input-field h1 {
+        font-size: 25px;
+    }
+
+    .form-details input,
+    .form-details select,
+    .form-details textarea {
+        padding: 12px 14px;
+    }
+
+    .restaurant-information img {
+        height: 230px;
+    }
+
+    .restaurant-information-details {
+        padding: 20px 15px;
+    }
+
+    .detail {
+        gap: 12px;
+    }
+
+    /* Contact */
+    .contact-info-box,
+    .contact-form-box {
+        padding: 20px 15px;
+    }
+
+    .contact-heading h2 {
+        font-size: 25px;
+    }
+
+    .form-group input {
+        height: 45px;
+    }
+
+    .form-group textarea {
+        height: 120px;
+    }
+
+    /* Footer */
+    .footer-main {
+        padding: 30px 15px;
+    }
+
+    .footer-about h2 {
+        font-size: 22px;
+    }
+
+    .subscribe input {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        font-size: 11px;
+    }
+
+    .back-top {
+        right: 15px;
+        bottom: 15px;
+        width: 35px;
+        height: 35px;
+        font-size: 17px;
+    }
+}

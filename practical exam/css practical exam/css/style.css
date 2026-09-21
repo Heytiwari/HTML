@@ -189,7 +189,7 @@ nav {
 
 .hero-section {
   width: 100%;
-  min-height: 700px;
+  height: 700px;
   display: flex;
   align-items: center;
   padding: 60px 40px;
