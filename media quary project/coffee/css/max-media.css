@@ -60,16 +60,26 @@
 }
 
 @media (max-width: 768px) {
+  .menu-icon {
+      font-size: 20px;
+      cursor: pointer;
+      user-select: none;
+      display: inline-block;
+    }
+  #menu-toggle:checked ~ .menu-show, .mobile-menu-toggle {
+      display: block;
+    }
   nav {
     margin: 0 10px;
   }
-  .mobile-menu-toggle {
+  /* .mobile-menu-toggle {
     display: block;
-  }
+  } */
   .nav-links li,
   .nav-links .search-btn {
     display: none;
   }
+
 
   .hero-curved-banner {
     height: 280px;
