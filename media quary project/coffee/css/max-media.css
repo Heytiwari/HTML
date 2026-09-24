@@ -22,6 +22,15 @@
   nav {
     margin: 0 20px;
   }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  /* 3. Checkbox checked होने पर .nav-links को दिखाना */
+  #menu-toggle:checked ~ .mobile-nav {
+    display: block;
+  }
   .hero-curved-banner {
     height: 340px;
   }
@@ -38,7 +47,7 @@
     padding: 8px 14px;
     font-size: 13px;
   }
-  
+
   .categories-grid {
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
@@ -60,15 +69,14 @@
 }
 
 @media (max-width: 768px) {
-  .menu-icon {
-      font-size: 20px;
-      cursor: pointer;
-      user-select: none;
-      display: inline-block;
-    }
-  #menu-toggle:checked ~ .menu-show, .mobile-menu-toggle {
-      display: block;
-    }
+  .mobile-menu {
+    display: block;
+  }
+
+  /* 3. Checkbox checked होने पर .nav-links को दिखाना */
+  #menu-toggle:checked ~ .mobile-nav {
+    display: block;
+  }
   nav {
     margin: 0 10px;
   }
@@ -79,7 +87,6 @@
   .nav-links .search-btn {
     display: none;
   }
-
 
   .hero-curved-banner {
     height: 280px;
@@ -102,7 +109,7 @@
   .categories {
     padding: 30px 15px 50px;
   }
-  
+
   .categories-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -290,7 +297,7 @@
     gap: 30px;
     margin-bottom: 35px;
   }
-  .footer-links{
+  .footer-links {
     align-items: center;
   }
   .footer-bottom {

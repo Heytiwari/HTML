@@ -65,7 +65,7 @@ nav {
   letter-spacing: -0.3px;
   font-family: var(--font-sub);
 }
-header{
+header {
   width: 100%;
 }
 /* nav{
@@ -132,28 +132,28 @@ header{
   min-height: 620px; /* Height badhayein taaki pura curve visible ho */
   background: url("../assets/images/banner.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%; 
+  background-size: 100% 100%;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.hero-details{
+.hero-details {
   text-align: justify;
 }
-.hero-details span{
+.hero-details span {
   margin-left: 50px;
   color: #67676b;
   font-size: 30px;
   text-transform: uppercase;
 }
-.hero-details .coffee{
+.hero-details .coffee {
   margin: 0 0 20px 50px;
   font-size: 85px;
-  color: #E0AC93;
+  color: #e0ac93;
   letter-spacing: 3px;
 }
-.hero-details a{
+.hero-details a {
   margin-left: 50px;
   text-decoration: none;
   background-color: #fff;
@@ -163,10 +163,42 @@ header{
   padding: 10px 15px;
   border-radius: 100px;
 }
-.hero-details a:hover{
+.hero-details a:hover {
   background-color: #f7d2d2;
   box-shadow: 2px 2px 6px #fff;
 }
+
+.mobile-menu {
+  display: none;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+}
+
+/* 2. Menu Links को डिफ़ॉल्ट रूप से छुपाना */
+.mobile-nav {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* 3. Checkbox checked होने पर .nav-links को दिखाना */
+#menu-toggle:checked ~ .mobile-nav {
+  display: block;
+}
+
 .categories {
   text-align: center;
   padding: 50px 20px 80px;
