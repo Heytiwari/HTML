@@ -168,11 +168,11 @@ header {
   box-shadow: 2px 2px 6px #fff;
 }
 
-.mobile-menu {
+/* .mobile-menu {
   display: none;
-}
+} */
 
-.menu-icon {
+/* .menu-icon {
   font-size: 30px;
   cursor: pointer;
   user-select: none;
@@ -197,7 +197,7 @@ header {
 /* 3. Checkbox checked होने पर .nav-links को दिखाना */
 #menu-toggle:checked ~ .mobile-nav {
   display: block;
-}
+} */
 
 .categories {
   text-align: center;
