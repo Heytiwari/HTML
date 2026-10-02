@@ -180,7 +180,7 @@ header {
 }
 
 /* 2. Menu Links को डिफ़ॉल्ट रूप से छुपाना */
-.mobile-nav {
+/* .mobile-nav {
   display: none;
   list-style: none;
   padding: 0;
@@ -192,10 +192,10 @@ header {
   padding: 8px 12px;
   text-decoration: none;
   color: #333;
-}
+} */
 
 /* 3. Checkbox checked होने पर .nav-links को दिखाना */
-#menu-toggle:checked ~ .mobile-nav {
+/* #menu-toggle:checked ~ .mobile-nav {
   display: block;
 } */
 
@@ -204,7 +204,7 @@ header {
   padding: 50px 20px 80px;
 }
 .categories-section {
-  max-width: 1140px;
+  width: 100%;
   margin: 0 auto 60px auto;
 }
 
